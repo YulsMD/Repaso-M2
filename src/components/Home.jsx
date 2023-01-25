@@ -7,7 +7,7 @@ export default class Home extends React.Component{
         let {name, age} = this.props; //haciendo destructuring de las props que me pasan en App
         return(
             <div>
-                HOME {name} {age} {/*Así usas las variables */}
+                this a example {name} {age} {/*Así usas las variables */}
             </div>
         )
     }
