@@ -19,7 +19,7 @@ function App() {
       age= {'25'} city={'Puebla'} />}/> esto es lo mismo que:*/}
       
       <Route path={'/home'}>
-        <Home name={'Yul'} age= {'25'} city={'Puebla'} />
+        <Home name={'Yulissa'} age= {'25'} city={'Puebla'} />
       </Route>
       <Route path={'/create'} component={CreateUser}/>
       

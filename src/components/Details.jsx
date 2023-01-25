@@ -25,7 +25,7 @@ export function Details(props){ //los parametros vana llegar por props
     //para que pueda observar en qué momento cambian
     return(
         <div>
-            El usuario con id: {params}
+            El usuario con id es: {params}
             {   //tienes un detail?: Sí, renderiza esto, no---> null
                 props.detail ? (<div>
                     {props.detail.id} {/*Esta info viene de tu api */}
